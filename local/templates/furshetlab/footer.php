@@ -3,6 +3,7 @@
 use Bitrix\Main\Page\Asset;
 
 ?>
+     
 </main>
         <!-- /.main -->
 
