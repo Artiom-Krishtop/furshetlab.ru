@@ -10,7 +10,7 @@ use Bitrix\Main\Page\Asset;
         <section class="modal-callback modal">
 
             <button class="modal__close-btn">
-                <img src="<?= SITE_TEMPLATE_PATH?>/images/icons/close-black.svg" alt="">
+                <img src="<?= SITE_TEMPLATE_PATH?>/assets/images/icons/close-black.svg" alt="">
             </button>
 
             <h1 class="modal__title">
@@ -46,7 +46,7 @@ use Bitrix\Main\Page\Asset;
 
             <div class="mobMenu__btn-box">
                 <button class="mobMenu__btn">
-                    <img src="<?= SITE_TEMPLATE_PATH?>/images/icons/close.svg" alt="Закрыть">
+                    <img src="<?= SITE_TEMPLATE_PATH?>/assets/images/icons/close.svg" alt="Закрыть">
                 </button>
             </div>
 
@@ -147,13 +147,13 @@ use Bitrix\Main\Page\Asset;
 
                     <div class="footer__top-contacts_social">
                         <a class="social__link" href="">
-                            <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/images/social/1.svg" alt="Связаться в телеграм">
+                            <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/assets/images/social/1.svg" alt="Связаться в телеграм">
                         </a>
                         <a class="social__link" href="">
-                            <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/images/social/2.svg" alt="Связаться в инстаграм">
+                            <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/assets/images/social/2.svg" alt="Связаться в инстаграм">
                         </a>
                         <a class="social__link" href="">
-                            <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/images/social/3.svg" alt="Связаться в фейсбук">
+                            <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/assets/images/social/3.svg" alt="Связаться в фейсбук">
                         </a>
                     </div>
                 </div>
@@ -169,7 +169,7 @@ use Bitrix\Main\Page\Asset;
 
                 <div class="footer__top">
                     <a class="footer__logo" href="<?= $APPLICATION->GetCurPage() == '/' ? 'javascript:void(0)': '/' ?>">
-                        <img class="footer__logo-img" src="<?= SITE_TEMPLATE_PATH?>/images/footer-logo.svg" alt="Logo">
+                        <img class="footer__logo-img" src="<?= SITE_TEMPLATE_PATH?>/assets/images/footer-logo.svg" alt="Logo">
                     </a>
 
                     <nav class="footer__top-nav">
@@ -347,13 +347,13 @@ use Bitrix\Main\Page\Asset;
 
                         <div class="footer__top-contacts_social">
                             <a class="social__link" href="">
-                                <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/images/social/1.svg" alt="Связаться в телеграм">
+                                <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/assets/images/social/1.svg" alt="Связаться в телеграм">
                             </a>
                             <a class="social__link" href="">
-                                <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/images/social/2.svg" alt="Связаться в инстаграм">
+                                <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/assets/images/social/2.svg" alt="Связаться в инстаграм">
                             </a>
                             <a class="social__link" href="">
-                                <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/images/social/3.svg" alt="Связаться в фейсбук">
+                                <img class="social__link-icon" src="<?= SITE_TEMPLATE_PATH?>/assets/images/social/3.svg" alt="Связаться в фейсбук">
                             </a>
                         </div>
                     </div>
@@ -372,9 +372,9 @@ use Bitrix\Main\Page\Asset;
                     </p>
 
                     <div class="footer__center-payment">
-                        <img class="footer__center-payment_img" src="<?= SITE_TEMPLATE_PATH?>/images/payment/1.svg" alt="Платежная система Мастеркард">
-                        <img class="footer__center-payment_img" src="<?= SITE_TEMPLATE_PATH?>/images/payment/2.svg" alt="Платежная система Виза">
-                        <img class="footer__center-payment_img" src="<?= SITE_TEMPLATE_PATH?>/images/payment/3.svg" alt="Платежная система Мир">
+                        <img class="footer__center-payment_img" src="<?= SITE_TEMPLATE_PATH?>/assets/images/payment/1.svg" alt="Платежная система Мастеркард">
+                        <img class="footer__center-payment_img" src="<?= SITE_TEMPLATE_PATH?>/assets/images/payment/2.svg" alt="Платежная система Виза">
+                        <img class="footer__center-payment_img" src="<?= SITE_TEMPLATE_PATH?>/assets/images/payment/3.svg" alt="Платежная система Мир">
                     </div>
                 </div>
 
@@ -400,9 +400,9 @@ use Bitrix\Main\Page\Asset;
         </div>
         <!-- /.wrapper -->
 
-        <? Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery-3.6.1.min.js") ?>
-        <? Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/slick.min.js") ?>
-        <? Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/main.min.js") ?>
+        <? Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/assets/js/jquery-3.6.1.min.js") ?>
+        <? Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/assets/js/slick.min.js") ?>
+        <? Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/assets/js/main.min.js") ?>
     </body>
 
     </html>

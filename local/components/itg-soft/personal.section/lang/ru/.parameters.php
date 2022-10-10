@@ -1,0 +1,72 @@
+<?
+$MESS["SPS_GROUP_ORDER"] = "Закладка истории заказов пользователя";
+$MESS["SPS_GROUP_PROFILE"] = "Закладка профиля пользователя";
+$MESS["SPS_GROUP_BONUS"] = "Закладка пользователя";
+$MESS["SPS_SHOW_ORDER_PAGE"] = "Показать закладку истории заказов пользователя";
+$MESS["SPS_SHOW_PROFILE_PAGE"] = "Показать закладку пользователя пользователя";
+$MESS["SPS_SHOW_BONUS_PAGE"] = "Показать закладку бонусов пользователя";
+$MESS["SPS_SHOW_USER_FIELDS"] = "Поля пользователя для редактирования";
+
+$MESS["SPS_SHOW_FIELD_NAME"] = "Имя";
+$MESS["SPS_SHOW_FIELD_LAST_NAME"] = "Фамилия";
+$MESS["SPS_SHOW_FIELD_SECOND_NAME"] = "Отчество";
+$MESS["SPS_SHOW_FIELD_EMAIL"] = "Электронная почта";
+$MESS["SPS_SHOW_FIELD_PERSONAL_GENDER"] = "Пол";
+$MESS["SPS_SHOW_FIELD_PERSONAL_BIRTHDAY"] = "Дата рождения";
+$MESS["SPS_SHOW_FIELD_PHONE_NUMBER"] = "Номер телефона";
+$MESS["SPS_PRIVATE_SEND_INFO"] = "Генерировать почтовое событие";
+$MESS["SPS_PRIVATE_CHECK_RIGHTS"] = "Проверять права доступа";
+
+
+
+$MESS["SPS_SHOW_CONTACT_PAGE"] = "Вывести ссылку на страницу контактов";
+$MESS["SPS_SHOW_BASKET_PAGE"] = "Вывести ссылку на корзину";
+$MESS["SPS_SHOW_ACCOUNT_COMPONENT"] = "Показать счет текущего пользователя";
+$MESS["SPS_SHOW_ACCOUNT_COMPONENT_PAY"] = "Разрешить добавление средств на счет текущего пользователя";
+$MESS["SPS_NAME_CUSTOM_PAGE"] = "Название страницы";
+$MESS["SPS_PATH_TO_CUSTOM_PAGE"] = "Путь к дополнительной странице";
+$MESS["SPS_SET_PRIVATE_AJAX_MODE"] = "Включить режим AJAX:";
+$MESS["SPS_PRIVATE_USER_PROPERTY"] = "Показывать дополнительные свойства";
+$MESS["SPS_ORDERS_PER_PAGE"] = "Количество заказов на одной странице";
+$MESS["SPS_PROFILES_PER_PAGE"] = "Количество профилей на одной странице";
+$MESS["SPS_SAVE_IN_SESSION"] = "Сохранять установки фильтра в сессии пользователя";
+$MESS["SPS_ACTIVE_DATE_FORMAT"] = "Формат показа даты";
+$MESS["SPS_HISTORIC_STATUSES"] = "Перенести в историю заказы в статусах";
+$MESS["SPS_RESTRICT_CHANGE_PAYSYSTEM"] = "Запретить смену платежной системы у заказов в статусах";
+$MESS["SPS_PROPS_NOT_SHOW"] = "Не показывать свойства для типа плательщика";
+$MESS["SPS_SHOW_ALL"] = "(показывать все)";
+$MESS["SPS_NAV_TEMPLATE"] = "Имя шаблона для постраничной навигации";
+$MESS["SPS_CACHE_GROUPS"] = "Учитывать права доступа";
+$MESS["SPS_PARAM_CUSTOM_SELECT_PROPS"] = "Дополнительные свойства инфоблока";
+$MESS["SPS_PATH_TO_BASKET"] = "Путь к корзине";
+$MESS["SPS_PATH_TO_PAYMENT"] = "Путь к странице оплат";
+$MESS["SPS_PATH_TO_CONTACT"] = "Путь к странице контактных данных";
+$MESS["SPS_PATH_TO_CATALOG"] = "Путь к каталогу";
+$MESS["SPS_SELL_AMOUNT"] = "Выберите суммы для покупки";
+$MESS["SPS_ACCEPT_USER_AMOUNT"] = "Разрешить пользователю вводить сумму";
+$MESS["SPS_SELL_CURRENCY"] = "Валюта для отображения";
+$MESS["SPS_SELL_USER_TYPES"] = "Тип пользователя";
+$MESS["SPS_SELL_SHOW_FIXED_VALUES"] = "Показывать значения фиксированных платежей";
+$MESS["SPS_ELIMINATED_PAY_SYSTEMS"] = "Исключить из списка платежных систем";
+$MESS["SPS_NOT_CHOSEN"] = "(не выбрано)";
+$MESS["SPS_CANCEL_ORDER_DESC"] = "Страница отмены заказа";
+$MESS["SPS_USE_AJAX_LOCATIONS"] = "Использовать расширенный выбор местоположения";
+$MESS["SPS_ICON_OF_CUSTOM_PAGE"] = "Имя класса FontAwesome";
+$MESS["SPS_COMPATIBLE_LOCATION_MODE"] = "Получить список местоположений для устаревших версий шаблона";
+$MESS["SPS_ALLOW_INNER"] = "Разрешить оплату с внутреннего счета";
+$MESS["SPS_ONLY_INNER_FULL"] = "Разрешить оплату с внутреннего счета только в полном объеме";
+$MESS["SPS_ORDER_LIST_SORT_STATUS"] = "Статус";
+$MESS["SPS_ORDER_LIST_SORT_ACCOUNT_NUMBER"] = "Номер заказа";
+$MESS["SPS_ORDER_LIST_SORT_ID"] = "ID заказа";
+$MESS["SPS_ORDER_LIST_SORT_DATE_CREATE"] = "Дата создания";
+$MESS["SPS_ORDER_LIST_SORT_PRICE"] = "Сумма заказа";
+$MESS["SPS_ORDER_LIST_DEFAULT_SORT"] = "Сортировка заказов";
+$MESS["SPS_USER_INFO_LOGIN"] = "Логин";
+$MESS["SPS_USER_INFO_EMAIL"] = "E-mail адрес";
+$MESS["SPS_USER_INFO_PERSON_TYPE_NAME"] = "Тип плательщика";
+$MESS["SPS_ORDER_HIDE_USER_INFO"] = "Не показывать в информации о пользователе";
+$MESS["SPS_CHAIN_MAIN"] = "Мой кабинет";
+$MESS["SPS_CHAIN_MAIN_FIELD"] = "Название раздела в цепочке навигации";
+$MESS["SPS_REFRESH_PRICE_AFTER_PAYSYSTEM_CHANGE"] = "Пересчитывать заказ после смены платежной системы";
+$MESS["SPS_DISALLOW_CANCEL"] = "Запретить отмену заказа";
+?>

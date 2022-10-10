@@ -12,8 +12,8 @@ use Bitrix\Main\Page\Asset;
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     
     <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/custom.css") ?>
-    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/styles.min.css") ?>
-    
+    <? Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/assets/css/style.min.css") ?>
+
     <? Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/custom.js") ?>
 </head>
 
@@ -28,16 +28,16 @@ use Bitrix\Main\Page\Asset;
 
                         <div class="header__top-mobile">
                             <button class="header__top-mobile_like">
-                                <img src="<?= SITE_TEMPLATE_PATH ?>/images/icons/like-icon-white.svg" alt="Личный кабинет">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/icons/like-icon-white.svg" alt="Личный кабинет">
                             </button>
 
                             <button class="header__top-mobile_cart">
-                                <img src="<?= SITE_TEMPLATE_PATH ?>/images/icons/cart-icon-white.svg" alt="Открыть мобильное меню">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/icons/cart-icon-white.svg" alt="Открыть мобильное меню">
                             </button>
                         </div>
 
                         <a class="header__logo" href="<?= $APPLICATION->GetCurPage() == '/' ? 'javascript:void(0)': '/' ?>">
-                            <img class="header__logo-img" src="<?= SITE_TEMPLATE_PATH ?>/images/header-logo.svg" alt="Logo">
+                            <img class="header__logo-img" src="<?= SITE_TEMPLATE_PATH ?>/assets/images/header-logo.svg" alt="Logo">
                         </a>
 
                         <?$APPLICATION->IncludeComponent(
@@ -59,15 +59,15 @@ use Bitrix\Main\Page\Asset;
 
                         <div class="header__top-mobile">
                             <button class="header__top-mobile_cabinet">
-                                <img src="<?= SITE_TEMPLATE_PATH ?>/images/icons/cabinet-icon.svg" alt="Личный кабинет">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/icons/cabinet-icon.svg" alt="Личный кабинет">
                             </button>
 
                             <button class="header__top-mobile_burger">
-                                <img src="<?= SITE_TEMPLATE_PATH ?>/images/icons/burger.svg" alt="Открыть мобильное меню">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/icons/burger.svg" alt="Открыть мобильное меню">
                             </button>
                         </div>
 
-                        <a class="header__top-cabinet item-hover" href="account-enter_page.html">
+                        <a class="header__top-cabinet item-hover" href="/personal/">
                             Личный кабинет
                         </a>
                     </div>
@@ -103,11 +103,11 @@ use Bitrix\Main\Page\Asset;
             
                         <div class="header__center-box">
                             <button class="header__center-btn header__center-btn_like">
-                                <img src="<?= SITE_TEMPLATE_PATH ?>/images/icons/like-icon.svg" alt="Нравится">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/icons/like-icon.svg" alt="Нравится">
                             </button>
             
                             <a class="header__center-btn header__center-btn_cart" href="cart_page.html">
-                                <img src="<?= SITE_TEMPLATE_PATH ?>/images/icons/cart-icon.svg" alt="Добавить в корзину">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/icons/cart-icon.svg" alt="Добавить в корзину">
                             </a>
                         </div>
             
